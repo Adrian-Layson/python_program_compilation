@@ -5,5 +5,7 @@ second_number = int(input("Enter your second number: "))
 if first_number > second_number:
     first_number, second_number = second_number, first_number
 # for loop all the numbers between the first and second number, excluding both
- # print the result
+for result in range(first_number +1, second_number):
+    # print the result
+    print(result)
     
