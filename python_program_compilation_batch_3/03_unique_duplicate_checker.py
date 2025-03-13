@@ -13,7 +13,7 @@ while True:
 # add the number to the list for future comparison
         numbers.append(num)
 
-        except ValueError:
+    except ValueError:
 # if user enters a non-numerical input, exit the loop
         print("Invalid input")
         break
