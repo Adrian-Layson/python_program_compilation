@@ -10,7 +10,7 @@ while True:
         number = float(user_input)
         numbers.append(number)
     except ValueError:
-        # check if input is valid or invalid
+        # check if the input is valid or invalid
         if len(numbers) > 0:
             # sort the list in ascending order
             numbers.sort()
