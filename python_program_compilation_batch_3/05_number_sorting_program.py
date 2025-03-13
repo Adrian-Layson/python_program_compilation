@@ -1,7 +1,21 @@
 # create a list to store inputted numbers
-# ask user to input a number
-# convert the input to a float and add to the list
-# check if input is valid or invalid
-# sort the list in ascending order
-# print all the numbers added to in the list
-# exit the loop when invalid input
+numbers = []
+
+while True:
+    # ask user to input a number
+    user_input = input("Enter a number: ")
+
+    try:
+        # convert the input to a float and add to the list
+        number = float(user_input)
+        numbers.append(number)
+    except ValueError:
+        # check if input is valid or invalid
+        if len(numbers) > 0:
+            # sort the list in ascending order
+            numbers.sort()
+            # print all the numbers added to in the list
+            print("Numbers from lowest to highest are:")
+            for num in numbers:
+                print(num)
+        
