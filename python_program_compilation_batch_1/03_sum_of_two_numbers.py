@@ -1,9 +1,9 @@
-# ask user for two input
+# Ask user for two input
 first_number = int(input("Input the first number: "))
 second_number = int(input("Input the second number: "))
 
-# add the two input
+# Add the two input
 result = first_number + second_number
 
-# print the sum
+# Print the sum
 print(f"The sum is: {result}")
