@@ -9,5 +9,9 @@ while True:
     except ValueError:
         print("Invalid input, stopping.")
         break
-    
+
 # find the most frequent number
+if numbers:
+    most_frequent = max(set(numbers), key=numbers.count)
+    count = numbers.count(most_frequent)
+    print(f"Most frequent number is: {most_frequent}, appearing {count} times.")
