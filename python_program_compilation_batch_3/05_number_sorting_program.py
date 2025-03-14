@@ -10,16 +10,21 @@ while True:
         number = float(user_input)
         numbers.append(number)
     except ValueError:
+        
         # check if the input is valid or invalid
         if len(numbers) > 0:
+            
             # sort the list in ascending order
             numbers.sort()
+            
             # print all the numbers added to in the list
             print("Numbers from lowest to highest are:")
             for num in numbers:
                 print(num)
         else:
+            
             # if no valid numbers were entered
             print("No valid numbers were entered.")
+        
         # exit the loop when invalid input
         break
