@@ -11,3 +11,6 @@ while True:
         break
 
 # sort numbers from highest to lowest and print
+if numbers:
+    numbers.sort(reverse=True)
+    print(f"Numbers from highest to lowest: {numbers}")
