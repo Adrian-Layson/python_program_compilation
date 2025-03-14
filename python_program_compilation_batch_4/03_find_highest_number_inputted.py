@@ -4,7 +4,7 @@ numbers = []
 # Ask user for input until invalid
 while True:
     number = input("Please input a number: ")
-    if number.isdigit(): # checks if input is a digit
+    if number.isdigit(): # Checks if input is a digit
         numbers.append(int(number))
     else:
         print("Invalid input")
