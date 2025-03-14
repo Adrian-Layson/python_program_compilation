@@ -11,3 +11,6 @@ while True:
         break
 
 # calculate and display the average inputted numbers
+if numbers:
+    average = sum(numbers) / len(numbers)
+    print(f"The average inputted number is: {average}")
