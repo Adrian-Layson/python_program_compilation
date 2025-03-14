@@ -1,7 +1,7 @@
-# list to store values
+# List to store values
 numbers = []
 
-# ask user for input until invalid
+# Ask user for input until invalid
 while True:
     number = input("Please input a number: ")
     if number.isdigit():
@@ -10,7 +10,7 @@ while True:
         print("Invalid input")
         break
 
-# calculate and display the average inputted numbers
+# Calculate and display the average inputted numbers
 if numbers:
     average = sum(numbers) / len(numbers)
     print(f"The average inputted number is: {average}")
