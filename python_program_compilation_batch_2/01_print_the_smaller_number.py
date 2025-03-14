@@ -7,5 +7,8 @@ if first_number > second_number:
    
    # print the smaller number
     print(f"The smaller number is: {second_number}")
-else:
+elif first_number < second_number:
     print(f"The smaller number is: {first_number}")
+else:
+    print("Both numbers are equal")
+
