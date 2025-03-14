@@ -22,8 +22,8 @@ while True:
                 print(num)
         else:
             
-            # if no valid numbers were entered
+            # If no valid numbers were entered
             print("No valid numbers were entered.")
         
-        # exit the loop when invalid input
+        # Exit the loop when invalid input
         break
