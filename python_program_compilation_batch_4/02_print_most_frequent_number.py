@@ -1,7 +1,7 @@
-# create a list to store inputs
+# Create a list to store inputs
 numbers = []
 
-# ask user for input until invalid
+# Ask user for input until invalid
 while True:
     try:
         number = int(input("Please input a number: "))
@@ -10,7 +10,7 @@ while True:
         print("Invalid input, stopping.")
         break
 
-# find the most frequent number
+# Find the most frequent number
 if numbers:
     most_frequent = max(set(numbers), key=numbers.count)
     count = numbers.count(most_frequent)
