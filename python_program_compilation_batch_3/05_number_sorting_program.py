@@ -7,8 +7,8 @@ while True:
 
     try:
         # convert the input to a float and add to the list
-        number = float(user_input)
-        numbers.append(number)
+        user_number = float(user_input)
+        numbers.append(user_number)
     except ValueError:
         
         # check if the input is valid or invalid
